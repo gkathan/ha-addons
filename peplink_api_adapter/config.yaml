@@ -2,7 +2,7 @@ name: "Peplink API Adapter"
 version: "v0.1.0"
 slug: "peplink_api_adapter"
 description: "Generic read-only Peplink 8.6.x API to MQTT Discovery adapter"
-url: "https://github.com/gkathan/peplink-ha-addons"
+url: "https://github.com/gkathan/ha-addons"
 startup: application
 boot: auto
 init: false
