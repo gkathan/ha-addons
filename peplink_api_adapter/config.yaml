@@ -1,5 +1,5 @@
 name: "Peplink API Adapter"
-version: "v0.1.0"
+version: "v0.2.0"
 slug: "peplink_api_adapter"
 description: "Generic read-only Peplink 8.6.x API to MQTT Discovery adapter"
 url: "https://github.com/gkathan/ha-addons"
@@ -24,6 +24,11 @@ options:
   mqtt_username: ""
   mqtt_password: ""
   device_id: "peplink_router"
+  sim_enabled: false
+  sim_slot_sim_a_name: "SIM A"
+  sim_slot_sim_b_name: "SIM B"
+  sim_slot_esim_a_name: "eSIM A"
+  sim_slot_esim_b_name: "eSIM B"
 
 schema:
   router_host: str
@@ -36,3 +41,8 @@ schema:
   mqtt_username: str
   mqtt_password: password
   device_id: str
+  sim_enabled: bool
+  sim_slot_sim_a_name: str
+  sim_slot_sim_b_name: str
+  sim_slot_esim_a_name: str
+  sim_slot_esim_b_name: str
